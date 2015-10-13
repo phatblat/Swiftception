@@ -12,6 +12,9 @@
 		B55952C11BCD919A00D02276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55952BF1BCD919A00D02276 /* Main.storyboard */; };
 		B55952C31BCD919A00D02276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55952C21BCD919A00D02276 /* Assets.xcassets */; };
 		B55952C61BCD919A00D02276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55952C41BCD919A00D02276 /* LaunchScreen.storyboard */; };
+		B55952CE1BCD925E00D02276 /* SwiftClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55952CD1BCD925E00D02276 /* SwiftClass1.swift */; settings = {ASSET_TAGS = (); }; };
+		B55952D01BCD927100D02276 /* SwiftClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55952CF1BCD927100D02276 /* SwiftClass2.swift */; settings = {ASSET_TAGS = (); }; };
+		B55952D41BCD928B00D02276 /* ObjectiveCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B55952D31BCD928B00D02276 /* ObjectiveCClass.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,14 @@
 		B55952C21BCD919A00D02276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55952C51BCD919A00D02276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B55952C71BCD919A00D02276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55952CD1BCD925E00D02276 /* SwiftClass1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass1.swift; sourceTree = "<group>"; };
+		B55952CF1BCD927100D02276 /* SwiftClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass2.swift; sourceTree = "<group>"; };
+		B55952D11BCD928A00D02276 /* Swiftception-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swiftception-Bridging-Header.h"; sourceTree = "<group>"; };
+		B55952D21BCD928B00D02276 /* ObjectiveCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCClass.h; sourceTree = "<group>"; };
+		B55952D31BCD928B00D02276 /* ObjectiveCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCClass.m; sourceTree = "<group>"; };
+		B55952D51BCD92B400D02276 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B55952D61BCD937700D02276 /* Swiftception-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swiftception-Swift.h"; path = "../../Intermediates/Swiftception.build/Debug-iphoneos/Swiftception.build/DerivedSources/Swiftception-Swift.h"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55952D71BCD937D00D02276 /* Swiftception-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swiftception-Swift.h"; path = "../../Intermediates/Swiftception.build/Debug-iphonesimulator/Swiftception.build/DerivedSources/Swiftception-Swift.h"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 		B55952AF1BCD919A00D02276 = {
 			isa = PBXGroup;
 			children = (
+				B55952D51BCD92B400D02276 /* README.md */,
 				B55952BA1BCD919A00D02276 /* Swiftception */,
 				B55952B91BCD919A00D02276 /* Products */,
 			);
@@ -60,6 +72,13 @@
 				B55952C21BCD919A00D02276 /* Assets.xcassets */,
 				B55952C41BCD919A00D02276 /* LaunchScreen.storyboard */,
 				B55952C71BCD919A00D02276 /* Info.plist */,
+				B55952CD1BCD925E00D02276 /* SwiftClass1.swift */,
+				B55952CF1BCD927100D02276 /* SwiftClass2.swift */,
+				B55952D21BCD928B00D02276 /* ObjectiveCClass.h */,
+				B55952D31BCD928B00D02276 /* ObjectiveCClass.m */,
+				B55952D11BCD928A00D02276 /* Swiftception-Bridging-Header.h */,
+				B55952D61BCD937700D02276 /* Swiftception-Swift.h */,
+				B55952D71BCD937D00D02276 /* Swiftception-Swift.h */,
 			);
 			path = Swiftception;
 			sourceTree = "<group>";
@@ -90,6 +109,7 @@
 		B55952B01BCD919A00D02276 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ben Chatelain";
 				TargetAttributes = {
@@ -135,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55952BE1BCD919A00D02276 /* ViewController.swift in Sources */,
+				B55952D01BCD927100D02276 /* SwiftClass2.swift in Sources */,
+				B55952D41BCD928B00D02276 /* ObjectiveCClass.m in Sources */,
+				B55952CE1BCD925E00D02276 /* SwiftClass1.swift in Sources */,
 				B55952BC1BCD919A00D02276 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,10 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Swiftception/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phatblat.Swiftception;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftception/Swiftception-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -259,10 +285,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Swiftception/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phatblat.Swiftception;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swiftception/Swiftception-Bridging-Header.h";
 			};
 			name = Release;
 		};
